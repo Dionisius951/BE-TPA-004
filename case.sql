@@ -35,3 +35,12 @@ GROUP BY
 ORDER BY
     Product_Count DESC
 LIMIT 1;
+
+-- rata-rata transaksi dari tanggal 1 oktober - 10 november
+SELECT
+    AVG(Total_Amount) AS Average_Transaction
+FROM
+    Orders
+WHERE
+    Order_Date BETWEEN ('2023-10-01') AND ('2023-11-10');
+
