@@ -1,3 +1,3 @@
-create database Online_Retail;
+CREATE DATABASE Online_Retail;
 
-use Online_Retail;
+USE Online_Retail;
