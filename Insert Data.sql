@@ -20,6 +20,7 @@ VALUES
     ('Buku');
 
 
+
 INSERT INTO Products ( Product_Name, Price, Category_ID, Stock)
 VALUES
     ('Laptop', 12000000, 1, 10),
@@ -54,6 +55,7 @@ VALUES
     ( 5, '2023-11-08', 900000),
     ( 7, '2023-11-09', 200000),
     ( 2, '2023-11-10', 550000);
+
 
 
 INSERT INTO OrderDetails (Order_ID, Product_ID, Quantity, Subtotal)
