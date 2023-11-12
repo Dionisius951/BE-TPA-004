@@ -14,3 +14,7 @@ JOIN
 
 -- Menampilkan data customers
 SELECT * FROM Customers;
+
+-- Menampilkan product dengan Id tertentu
+SELECT * FROM Products 
+WHERE Product_ID = 1;
