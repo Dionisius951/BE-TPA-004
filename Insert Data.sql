@@ -18,3 +18,20 @@ VALUES
     ('Elektronik'),
     ('Fashion'),
     ('Buku');
+
+
+INSERT INTO Products ( Product_Name, Price, Category_ID, Stock)
+VALUES
+    ('Laptop', 12000000, 1, 10),
+    ('Celana Jeans', 300000, 2, 20),
+    ('Celana Formal', 350000, 2, 50),
+    ('Buku Dongeng', 150000, 3, 15),
+    ('Handphone', 2500000, 3, 15),
+    ('Tas', 150000, 2, 15),
+    ('Kemeja', 150000, 2, 15),
+    ('Kaos', 100000, 2, 15),
+    ('Novel', 250000, 3, 15),
+    ('Headphone', 150000, 1, 15),
+    ('Monitor', 150000, 1, 20),
+    ('Keyboard', 150000, 3, 15);
+   
