@@ -10,3 +10,11 @@ VALUES
     ('Paulus', 'paulus@gmail.com', 'Jl. Sisingamangaraja 505', '08771234567'),
     ('Gidion', 'gidion@gmail.com', 'Jl. Pemuda 606', '08155667788'),
     ('Bryan', 'bryanr@gmail.com', 'Jl. Majapahit 707', '08889990000');
+
+
+
+INSERT INTO Categories ( Category_Name)
+VALUES
+    ('Elektronik'),
+    ('Fashion'),
+    ('Buku');
